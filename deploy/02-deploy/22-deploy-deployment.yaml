@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: web-app
-          image: node-web-app:latest
+          image: icr.io/webapp/webapp
           imagePullPolicy: IfNotPresent
           env:
             - name: NODE_ENV
